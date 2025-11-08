@@ -1,0 +1,16 @@
+node_modules/
+.git/
+.vscode/
+.vs/
+.log
+.zip
+.vsix
+*.vsix
+.blend
+.exe
+.dll
+.fbx
+.png
+.jpg
+.pyc
+.tmp
