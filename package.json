@@ -2,17 +2,28 @@
   "name": "codespacingfixer",
   "displayName": "Code Spacing Fixer",
   "description": "VSCode extension for adjusting code indentation using tabs or spaces.",
-  "version": "0.2.0",
-  "publisher": "kim's code",
+  "version": "0.2.3",
+  "publisher": "kimscode",
+  "author": "kim's code",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "code spacing fixer",
+    "code spacing",
+    "code fixer",
+    "code spacing fix"
+  ],
   "activationEvents": [
     "onCommand:codespacingfixer.applySpacing",
     "onCommand:codespacingfixer.addSpacing",
     "onCommand:codespacingfixer.addSpacingPy"
   ],
-  "main": "extension.js",
+  "main": "src/extension.js",
   "contributes": {
     "commands": [
       {
@@ -35,5 +46,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/KimsFerdy/CodeSpacingFixer.git"
-  }
+  },
+    "pricing": "Free"
 }
