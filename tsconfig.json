@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./out",                                 /* Output compiled files to 'out' folder */
+    "allowJs": true,                                   /* Allow JavaScript files to be compiled */
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"                                       /* Include all files in 'src' folder */
+  ],
+  "exclude": [
+    "node_modules",
+    "out"
+  ]
+}
