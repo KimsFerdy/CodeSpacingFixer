@@ -80,8 +80,8 @@ web_modules/
 .env.local
 
 # IDEs
-.idea
-.vscode
+.idea/
+.vscode/
 .vsix
 
 # parcel-bundler cache (https://parceljs.org/)
